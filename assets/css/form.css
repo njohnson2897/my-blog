@@ -12,7 +12,6 @@
     margin-bottom: 2%;
 }
 
-
 .content {
     width:100%;
     display: flex;
@@ -26,8 +25,28 @@
     padding-right: 2%;
 }
 
+.content .title-card h1 {
+    position: relative;
+    bottom: 350px;
+    z-index: 1;
+}
+
 .content .form-card {
     width: 48%;
     border-left: 4px solid black;
     padding-left: 2%;
+}
+
+.form-content input, .form-content label {
+    margin-bottom: 4%;
+}
+
+input {
+    background-color: white;
+}
+
+#background-image {
+    width: 90%;
+    height: 600px;
+    border-radius: 25px;
 }

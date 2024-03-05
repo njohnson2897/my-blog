@@ -5,3 +5,11 @@
     // preventDefault functionality to stop the submit button from simply refreshing the page
     // a link in the submit button to take the user to the submissions page
     // some if statements that return errors if the fields are not given the proper inputs
+
+const submitButton = document.querySelector('#submit-button');
+
+
+submitButton.addEventListener('click', function(event) {
+    event.preventDefault();
+    
+}
