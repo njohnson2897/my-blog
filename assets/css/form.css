@@ -1,0 +1,33 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+    color:black;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px solid black;
+    margin-bottom: 2%;
+}
+
+
+.content {
+    width:100%;
+    display: flex;
+    gap: 3%;
+    text-align: center;
+}
+
+.content .title-card {
+    width: 48%;
+    border-right: 4px solid black;
+    padding-right: 2%;
+}
+
+.content .form-card {
+    width: 48%;
+    border-left: 4px solid black;
+    padding-left: 2%;
+}

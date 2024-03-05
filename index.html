@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" src="./assets/css/form.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
     <title>My Blog Submission Form</title>
 </head>
 <body>
@@ -11,24 +11,23 @@
     <header class="header">
         <h1>Nate's Blog</h1>
     </header>
-    <section class="title-card">
-        <h1>My First Blog</h1>
-    </section>
-    <section class="form-card">
-        <h2>What's on your mind?</h2>
-        <form>
-            <label for="user-name">Name:</label>
-            <input type="text">
-        </form>
-        <form>
-            <label for="post-title">Title:</label>
-            <input type="text">
-        </form>
-        <form>
-            <label for="post-content">Content:</label>
-            <input type="text">
-        </form>
-    </section>
+    <main class="content">
+        <div class="title-card">
+            <h1>My First Blog</h1>
+        </div>
+        <div class="form-card">
+            <h2>What's on your mind?</h2>
+            <form class="form-content">
+                <label for="user-name">Name:</label>
+                <input type="text"><br>
+                <label for="post-title">Title:</label>
+                <input type="text"><br>
+                <label for="post-content">Content:</label>
+                <input type="text"><br>
+                <input type="submit" value="Submit"></input>
+            </form>
+        </div>
+    </main>
     <script src="./assets/js/form.js"></script>
 </body>
 </html>
