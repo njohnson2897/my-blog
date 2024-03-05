@@ -7,9 +7,20 @@
     // some if statements that return errors if the fields are not given the proper inputs
 
 const submitButton = document.querySelector('#submit-button');
+const nameInput = document.querySelector('#user-name');
+const titleInput = document.querySelector('#user-title');
+const contentInput = document.querySelector('#user-content');
 
 
 submitButton.addEventListener('click', function(event) {
     event.preventDefault();
+
+    const blogPost = {
+        name: nameInput.value,
+        title: titleInput.value,
+        content: contentInput.value,
+    };
     
-}
+    localStorage.setItem('blogPost', JSON.stringify(blogPost));
+    window.location.href = "./blog.html"
+});
