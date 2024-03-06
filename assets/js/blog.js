@@ -3,17 +3,18 @@
     // an event listener for clicks on the toggle
     // if statements for switching between light and dark modes
 const toggleSlider = document.querySelector('#toggle-slider')
+const container = document.querySelector('.container');
 
 let mode = 'light';
 
-toggleSlider.addEventListener('click', function {
+toggleSlider.addEventListener('click', function () {
     if (mode === 'light') {
         mode = 'dark';
-        container.setAttribute('class', 'light');
+        container.setAttribute('class', 'dark');
     }
     else {
-        mode = 'dark';
-        container.setAttribute('class', 'dark')
+        mode = 'light';
+        container.setAttribute('class', 'light')
     }
 })
 

@@ -1,10 +1,11 @@
+/* formats the main content area of the page below the header */
 .content {
     width:100%;
     display: flex;
     gap: 3%;
     text-align: center;
 }
-
+/* 9-21 style the left side of the submissions page with the image and title */
 .content .title-card {
     width: 48%;
     border-right: 4px solid black;
@@ -19,14 +20,14 @@
     border-radius: 15px;
     background-color: rgba(0,0,0,0);
 }
-
+/* styles the container that holds the submission form*/
 .content .form-card {
     width: 48%;
     border-left: 4px solid black;
     padding-left: 2%;
 }
 
-
+/* 31-55 style the submission form itself */
 .form-content input, .form-content label {
     margin-bottom: 4%;
     margin-top: 4%;

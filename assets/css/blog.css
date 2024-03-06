@@ -1,3 +1,4 @@
+/* styles the box around the light/dark mode slider */
 .toggle-box {
     display: flex; 
     border: 3px solid black;
@@ -7,14 +8,14 @@
     background-color: white;
     align-items: center;
 }
-
+/* styles the container surrounding all the blog post cards */
 .blog-posts {
     border: 3px solid black;
     border-radius: 20px;
     width: 100%;
     margin-bottom: 3%;
 }
-
+/* styles the blog post cards themselves */
 .blog-post-cards {
     width: 96%;
     border: 2px solid black;
@@ -23,18 +24,18 @@
     margin: 5px 0px 5px 10px;
     padding: 1%;
 }
-
+/* styles and positions the titles of the blog posts in each card */
 .post-title {
     border-bottom: 1px solid black;
     position: relative;
     bottom: 20px;
 }
-
+/* styles and positions the content of the blog posts in each card */
 .post-content {
     position: relative;
     bottom: 30px;
 }
-
+/* styles and positions the author name in each card */
 .post-author {
     position: relative;
     top: 25px;
@@ -101,12 +102,22 @@
   .slider.round:before {
     border-radius: 50%;
   }
-
+/* lines 106-123: light and dark styles for toggle functioning */
   .light {
-
+    background-color: white;
+    color:black;
+    height:100vh;
   }
 
-
   .dark {
+    background-color: #243447;
+    height: 100vh;
+    color: #bebebe;
+  }
 
+  .dark header, .dark header h1, .dark header a, .dark header div, .dark header div p, .dark header div label,
+  .dark header button, .dark main, .dark main div, .dark main div h3, .dark main div p, .dark footer,
+  .dark footer h4, .dark footer ul, .dark footer li, .dark footer li a{
+    background-color: #243447;
+    color: #bebebe;
   }
