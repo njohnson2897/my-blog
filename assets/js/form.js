@@ -21,6 +21,10 @@ submitButton.addEventListener('click', function(event) {
         content: contentInput.value.trim(),
     };
     
+    if (nameInput.value === '' || titleInput.value === '' || contentInput.value === '') {
+        alert('Please fill out all forms');
+    } else {
     localStorage.setItem('blogPost', JSON.stringify(blogPost));
     window.location.href = "./blog.html"
+    }
 });
