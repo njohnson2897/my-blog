@@ -1,6 +1,6 @@
 * {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: beige;
+    background-color: white;
     color:black;
 }
 
@@ -27,7 +27,6 @@
 
 #button {
     font-size: 1.5rem;
-    background-color: white;
     width: 30%;
     border-radius: 20px;
     position: relative;
@@ -35,7 +34,6 @@
 }
 
 #button a  {
-    background-color: white;
     text-decoration: none;
 }
 
