@@ -29,3 +29,4 @@ blogPostAuthor.textContent = `Posted by: ${storedBlogPost.name}`;
 blogPostContent.textContent = `${storedBlogPost.content}`;
 blogPostTitle.textContent = `${storedBlogPost.title}`;
 
+

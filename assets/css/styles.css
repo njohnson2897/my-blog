@@ -20,3 +20,33 @@
 .footer ul a  {
     text-decoration: none;
 }
+
+.button-container {
+    width: 30%;
+}
+
+#button {
+    font-size: 1.5rem;
+    background-color: white;
+    width: 30%;
+    border-radius: 20px;
+    position: relative;
+    left: 70%
+}
+
+#button a  {
+    background-color: white;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    border-bottom: 3px solid black;
+    margin-bottom: 3%;
+    justify-content: space-between;
+}
+
+.header h1 {
+    width: 20%;
+}
