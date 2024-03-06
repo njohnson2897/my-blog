@@ -25,8 +25,12 @@ const blogPostAuthor = document.body.children[1].children[0].children[2];
 const blogPostContent = document.body.children[1].children[0].children[1];
 const blogPostTitle = document.body.children[1].children[0].children[0];
 const storedBlogPost = JSON.parse(localStorage.getItem('blogPost'));
+
 blogPostAuthor.textContent = `Posted by: ${storedBlogPost.name}`;
 blogPostContent.textContent = `${storedBlogPost.content}`;
 blogPostTitle.textContent = `${storedBlogPost.title}`;
+
+
+
 
 
