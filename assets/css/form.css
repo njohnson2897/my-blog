@@ -22,7 +22,6 @@
 .content .title-card h1 {
     position: relative;
     bottom: 350px;
-    z-index: 1;
 }
 
 .content .form-card {
