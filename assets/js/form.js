@@ -14,17 +14,17 @@ const contentInput = document.querySelector('#user-content');
 
 submitButton.addEventListener('click', function(event) {
     event.preventDefault();
-
+    const allPosts = JSON.parse(localStorage.getItem('blogPost')) || [];
     const blogPost = {
         name: nameInput.value.trim(),
         title: titleInput.value.trim(),
         content: contentInput.value.trim(),
     };
-    
+    allPosts.push(blogPost)
     if (nameInput.value === '' || titleInput.value === '' || contentInput.value === '') {
         alert('Please fill out all forms');
     } else {
-    localStorage.setItem('blogPost', JSON.stringify(blogPost));
+    localStorage.setItem('blogPost', JSON.stringify(allPosts));
     window.location.href = "./blog.html"
     }
 });
