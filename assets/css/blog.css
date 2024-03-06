@@ -9,10 +9,6 @@
     width: 20%;
 }
 
-/* .nav {
-    width: 70%;
-} */
-
 .button-container {
     width: 30%;
 }
@@ -80,15 +76,6 @@
     top: 25px;
     font-size: 1rem;
     border-radius: 20px;
-}
-
-.footer {
-    text-align: center;
-    border-top: 3px solid black;
-}
-
-.footer ul {
-    list-style-type: none;
 }
 
 /*I found the code from this line to line 114 at https://www.w3schools.com/howto/howto_css_switch.asp */

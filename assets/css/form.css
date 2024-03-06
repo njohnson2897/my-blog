@@ -28,6 +28,7 @@
     width: 48%;
     border-left: 4px solid black;
     padding-left: 2%;
+    align-content: center;
 }
 
 .form-content input, .form-content label {
@@ -42,4 +43,10 @@ input {
     width: 90%;
     height: 600px;
     border-radius: 25px;
+}
+
+.submission-form {
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: gray;
 }

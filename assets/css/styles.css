@@ -3,3 +3,12 @@
     background-color: beige;
     color:black;
 }
+
+.footer {
+    text-align: center;
+    border-top: 3px solid black;
+}
+
+.footer ul {
+    list-style-type: none;
+}
