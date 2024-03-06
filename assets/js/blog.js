@@ -24,6 +24,7 @@ toggleSlider.addEventListener('click', function () {
     // logic for automatically populating the blog cards with the parsed user input data
 const storedPost = JSON.parse(localStorage.getItem('blogPost'));
 
+
 for (let i=0; i<storedPost.length; i++) {
     document.body.children[1].children[i].children[0].textContent = storedPost[i].title
 };
@@ -34,10 +35,6 @@ for (let i=0; i<storedPost.length; i++) {
 
 for (let i=0; i<storedPost.length; i++) {
         document.body.children[1].children[i].children[2].textContent = `Posted by: ${storedPost[i].name}`
-};
-
-for (let i=4; i>=storedPost.length; i--) {
-        document.body.children[1].children[i].children[1].textContent = 'More blog posts coming soon!'
 };
        
 
