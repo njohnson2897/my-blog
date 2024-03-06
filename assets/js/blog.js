@@ -22,14 +22,24 @@ toggleSlider.addEventListener('click', function () {
     // a getItem method for grabbing the user input data from the form
     // JSON parsing for the getItem to change the data into a usable object
     // logic for automatically populating the blog cards with the parsed user input data
-const blogPostAuthor = document.body.children[1].children[0].children[2];
-const blogPostContent = document.body.children[1].children[0].children[1];
-const blogPostTitle = document.body.children[1].children[0].children[0];
-const storedBlogPost = JSON.parse(localStorage.getItem('blogPost')) || [];
+const storedPost = JSON.parse(localStorage.getItem('blogPost'));
 
-blogPostAuthor.textContent = `Posted by: ${storedBlogPost.name}`;
-blogPostContent.textContent = `${storedBlogPost.content}`;
-blogPostTitle.textContent = `${storedBlogPost.title}`;
+for (let i=0; i<storedPost.length; i++) {
+    document.body.children[1].children[i].children[0].textContent = storedPost[i].title
+};
+
+for (let i=0; i<storedPost.length; i++) {
+    document.body.children[1].children[i].children[1].textContent = storedPost[i].content
+};
+
+for (let i=0; i<storedPost.length; i++) {
+        document.body.children[1].children[i].children[2].textContent = `Posted by: ${storedPost[i].name}`
+};
+
+for (let i=4; i>=storedPost.length; i--) {
+        document.body.children[1].children[i].children[1].textContent = 'More blog posts coming soon!'
+};
+       
 
 
 

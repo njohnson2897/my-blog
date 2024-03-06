@@ -20,11 +20,16 @@ submitButton.addEventListener('click', function(event) {
         title: titleInput.value.trim(),
         content: contentInput.value.trim(),
     };
+    if (allPosts.length<=4) {
     allPosts.push(blogPost)
+    } else {
+        allPosts.shift();
+        allPosts.push(blogPost);
+    }
     if (nameInput.value === '' || titleInput.value === '' || contentInput.value === '') {
         alert('Please fill out all forms');
     } else {
     localStorage.setItem('blogPost', JSON.stringify(allPosts));
     window.location.href = "./blog.html"
-    }
+    };
 });
