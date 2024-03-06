@@ -16,9 +16,9 @@ submitButton.addEventListener('click', function(event) {
     event.preventDefault();
 
     const blogPost = {
-        name: nameInput.value,
-        title: titleInput.value,
-        content: contentInput.value,
+        name: nameInput.value.trim(),
+        title: titleInput.value.trim(),
+        content: contentInput.value.trim(),
     };
     
     localStorage.setItem('blogPost', JSON.stringify(blogPost));
