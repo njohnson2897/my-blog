@@ -1,9 +1,3 @@
-* {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: beige;
-    color:black;
-}
-
 .header {
     width: 100%;
     display: flex;

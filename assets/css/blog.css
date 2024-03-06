@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    width: 100%;
+    border-bottom: 3px solid black;
+    margin-bottom: 3%;
+}
+
+.blog-posts {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 100%;
+    background-color: gray;
+}
+
+.blog-post-cards {
+    width: 96%;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
+    margin: 5px 0px 5px 10px;
+    padding: 1%;
+}
+
+.post-title, .post-content, .post-author {
+    background-color: white;
+}
+
+.post-title {
+    border-bottom: 1px solid black;
+    position: relative;
+    bottom: 20px;
+}
+
+.post-content {
+    position: relative;
+    bottom: 30px;
+}
+
+.post-author {
+    position: relative;
+    top: 25px;
+    font-size: 1rem;
+}
