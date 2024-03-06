@@ -10,14 +10,15 @@ N/A
 To use the webpage, follow [this link](https://njohnson2897.github.io/my-blog/)
 
 The following screenshot demonstrates what the page should look like in a browser when the page first loads:
-![payroll webpage screenshot 2](./assets/images/submission-page-screenshot.JPG)
+![blog submission page screenshot](./assets/images/submission-page-screenshot.JPG)
 
 To make a blog post, enter your name, the title of your post, and the text content that you would like your post to include.  When you are happy with your post, click "Submit" at the bottom of the form and you will be taken to a page that looks like this:
-![payroll webpage screenshot](./assets/images/blog-post-page-light.JPG)
+![blog light mode screenshot](./assets/images/blog-post-page-light.JPG)
 
 In this screenshot, the cards are populated with placeholder text, but following your blog post submission they would be populated with what you submitted.
 
 If you would prefer to view the page in dark mode, simply click the toggle switch and the screen should instead appear like this:
+![blog dark mode screenshot](./assets/images/blog-post-page-dark.JPG)
 
 
 ## Credits
